@@ -7,6 +7,7 @@
 
 >
 * This code defines a chatbot that checks whether an advertisement is valid according to certain rules. It uses the GPT-3 language model to generate responses. The chatbot takes input text as a parameter and returns a JSON object indicating whether the advertisement is valid, which rules it violates (if any), and the corresponding financial penalty ranges. 
+![MicrosoftTeams-image (4)](https://user-images.githubusercontent.com/68879499/226104713-2f38f38b-8b16-42f8-975a-88d74d184f8c.png)
 
 
 * The code imports various modules, including `SimpleDirectoryReader`, `GPTListIndex`, `GPTSimpleVectorIndex`, `LLMPredictor`, `PromptHelper`, `OpenAI`, `gradio`, `sys`, and `os`. It also defines a `rule_map` dictionary that maps rule numbers to their corresponding descriptions. 
@@ -16,4 +17,3 @@
 * The `chatbot` function takes an input text as a parameter, loads the index from disk, and sets the prompt using the input text and the `rule_map` dictionary. It queries the index using the prompt and stores the response in a JSON object. If the input text does not contain the words "ad" or "advertisement", the chatbot adds "Rule1.24" to the list of violated rule numbers. It returns the response. 
 
 Finally, the code creates a Gradio interface for the chatbot, sets the input to a text box, and sets the output to text. It constructs the index using the `construct_index` function and launches the interface.
-![MicrosoftTeams-image (3)](https://user-images.githubusercontent.com/68879499/226104634-bd0921ee-5268-4536-a66a-516b282295a0.png)
