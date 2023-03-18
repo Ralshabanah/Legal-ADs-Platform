@@ -8,7 +8,7 @@
 >
 * This code defines a chatbot that checks whether an advertisement is valid according to certain rules. It uses the GPT-3 language model to generate responses. The chatbot takes input text as a parameter and returns a JSON object indicating whether the advertisement is valid, which rules it violates (if any), and the corresponding financial penalty ranges. 
 <p align="center">
- <img src= ![MicrosoftTeams-image (4)](https://user-images.githubusercontent.com/68879499/226104928-e2160e72-1dac-40bb-9d50-cd80a5c87d26.png) />
+ <img src="https://user-images.githubusercontent.com/68879499/226104928-e2160e72-1dac-40bb-9d50-cd80a5c87d26.png" />
 </p>
 * The code imports various modules, including `SimpleDirectoryReader`, `GPTListIndex`, `GPTSimpleVectorIndex`, `LLMPredictor`, `PromptHelper`, `OpenAI`, `gradio`, `sys`, and `os`. It also defines a `rule_map` dictionary that maps rule numbers to their corresponding descriptions. 
 
