@@ -7,9 +7,10 @@
 
 >
 * This code defines a chatbot that checks whether an advertisement is valid according to certain rules. It uses the GPT-3 language model to generate responses. The chatbot takes input text as a parameter and returns a JSON object indicating whether the advertisement is valid, which rules it violates (if any), and the corresponding financial penalty ranges. 
-
+<p align="center">
 ![MicrosoftTeams-image (4)](https://user-images.githubusercontent.com/68879499/226104928-e2160e72-1dac-40bb-9d50-cd80a5c87d26.png)
 
+</p>
 * The code imports various modules, including `SimpleDirectoryReader`, `GPTListIndex`, `GPTSimpleVectorIndex`, `LLMPredictor`, `PromptHelper`, `OpenAI`, `gradio`, `sys`, and `os`. It also defines a `rule_map` dictionary that maps rule numbers to their corresponding descriptions. 
 
 * The `construct_index` function constructs an index for the GPT-3 model using a directory of documents. It sets various parameters such as `max_input_size`, `num_outputs`, `max_chunk_overlap`, and `chunk_size_limit`. It then creates a `PromptHelper` object, an `LLMPredictor` object, and a `SimpleDirectoryReader` object to load the data. It creates a `GPTSimpleVectorIndex` object using the loaded data and the previously defined objects. It saves the index to disk and returns it. 
