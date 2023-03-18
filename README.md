@@ -1,5 +1,5 @@
 # Legal-ADs
-**A platform using ChatGPT to verify that ads comply with legal regulations and regulations for advertising on social media platforms in the Kingdom of Saudi Arabia and knowing their fines in case of violation..**
+**A platform using ChatGPT to verify that ads comply with legal regulations and regulations for advertising on social media platforms in the Kingdom of Saudi Arabia and knowing their fines in case of violation.**
 >
 * This code defines a chatbot that checks whether an advertisement is valid according to certain rules. It uses the GPT-3 language model to generate responses. The chatbot takes input text as a parameter and returns a JSON object indicating whether the advertisement is valid, which rules it violates (if any), and the corresponding financial penalty ranges. 
 
