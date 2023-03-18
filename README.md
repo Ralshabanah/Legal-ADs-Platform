@@ -17,3 +17,4 @@
 * The `chatbot` function takes an input text as a parameter, loads the index from disk, and sets the prompt using the input text and the `rule_map` dictionary. It queries the index using the prompt and stores the response in a JSON object. If the input text does not contain the words "ad" or "advertisement", the chatbot adds "Rule1.24" to the list of violated rule numbers. It returns the response. 
 
 Finally, the code creates a Gradio interface for the chatbot, sets the input to a text box, and sets the output to text. It constructs the index using the `construct_index` function and launches the interface.
+![MicrosoftTeams-image (4)](https://user-images.githubusercontent.com/68879499/226106569-d2036979-c6a1-4b55-aefd-46a7db480a61.png)
